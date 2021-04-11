@@ -3,7 +3,7 @@ const backend = require('./backend');
 
 module.exports = {
   base: '/',
-  title: 'pimzh的个人博客',
+  title: 'yc的个人博客',
   description: '个人博客',
   head: [
     [
@@ -29,7 +29,7 @@ module.exports = {
     backToTop: true,
     nav: [
       { text: '首页', link: '/' },
-      { text: 'github', link: 'https://github.com/pimingzhao/' },
+      { text: 'github', link: 'https://github.com/shoil/' },
       {
         text: '技术文档',
         // ariaLabel: 'Language Menu',
@@ -38,14 +38,7 @@ module.exports = {
           { text: '后端', items: backend.nav }
         ]
       },
-      {
-        text: '个人项目',
-        // ariaLabel: 'Language Menu',
-        items: [
-          { text: 'vue-online-editor', link: 'https://vue-online-editor.pimingzhao.top/' },
-          { text: 'vue-component-builder', link: 'https://vue-comp-builder.pimingzhao.top/' }
-        ]
-      }
+
     ], // 菜单栏
     sidebar: {
       ...frontend.side,
