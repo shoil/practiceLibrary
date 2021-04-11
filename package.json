@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "author": "yc",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "update-readme": "node ./update-readme"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-reading-progress": "^1.0.10"
+  },
+  "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
